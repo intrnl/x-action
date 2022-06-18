@@ -87,5 +87,5 @@ controller. This is very useful for dealing with nested controllers.
 ```
 
 
-[stimulus][https://stimulus.hotwired.dev/]
-[mdn-ce-overview][https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#high-level_view]
+[stimulus]: https://stimulus.hotwired.dev/
+[mdn-ce-overview]: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#high-level_view
