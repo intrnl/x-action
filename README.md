@@ -36,11 +36,11 @@ attribute to bind events to a corresponding controller.
 
 ```html
 <hello-world>
-	<input type='text' x-target='hello-world.name'>
+  <input type='text' x-target='hello-world.name'>
 
-	<button x-action='click:hello-world#greet'>
-		Greet
-	</button>
+  <button x-action='click:hello-world#greet'>
+    Greet
+  </button>
 </hello-world>
 ```
 
@@ -48,12 +48,12 @@ attribute to bind events to a corresponding controller.
 import '@intrnl/x-action';
 
 class HelloWorldElement extends HTMLElement {
-	#name = this.querySelector(`[x-target~='hello-world.name']`);
+  #name = this.querySelector(`[x-target~='hello-world.name']`);
 
-	greet () {
-		const message = `Hello, ${this.#name.value}!`;
-		alert(message);
-	}
+  greet () {
+    const message = `Hello, ${this.#name.value}!`;
+    alert(message);
+  }
 }
 
 customElements.define('hello-world', HelloWorldElement);
