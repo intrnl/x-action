@@ -1,0 +1,29 @@
+{
+	"name": "@intrnl/x-action",
+	"description": "Library for binding events to custom elements-based controllers",
+	"version": "0.1.1",
+	"author": "intrnl",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/intrnl/x-action"
+	},
+	"files": [
+		"index.js",
+		"src/",
+		"dist/"
+	],
+	"main": "index.js",
+	"exports": {
+		"import": "./dist/x-action.mjs",
+		"development": "./dist/x-action.dev.mjs",
+		"require": "./index.js"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "pnpm run build"
+	},
+	"devDependencies": {
+		"@rollup/plugin-replace": "^4.0.0",
+		"rollup": "^2.75.6"
+	}
+}
