@@ -34,7 +34,7 @@ attribute to bind events to a corresponding controller.
 
 ### Example
 
-> **Note**
+> **Note**  
 > The `x-target` attribute isn't mandatory, nor does it come from this library,
 > but it's recommended that you do this when targetting a specific element from
 > a controller.
