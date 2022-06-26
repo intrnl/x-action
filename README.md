@@ -91,6 +91,15 @@ controller. This is very useful for dealing with nested controllers.
 <x-tree>
 ```
 
+### Configuration
+
+There will not be any sort of configuration, whether it's changing the
+attribute name used for binding, etc.
+
+The simplistic nature of `x-action` means that you are very much encouraged to
+copy the source code directly to your own project, feel free to do so in order
+to make it fit to your own needs.
+
 
 [stimulus]: https://stimulus.hotwired.dev/
 [mdn-ce-overview]: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#high-level_view
